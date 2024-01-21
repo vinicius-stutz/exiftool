@@ -22,3 +22,5 @@ Ex.:
 ```
 exiftool -TagsFromFile IMG-20230105-WA0009.jpg "-all:all>all:all" IMG-20230105-WA0009-edited.jpg
 ```
+
+Ref.: https://exiftool.org/forum/index.php?topic=3440.0
