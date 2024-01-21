@@ -13,3 +13,12 @@ exiftool -r -d %s -tagsfromfile "%d/%F.json" "-GPSAltitude<GeoDataAltitude" "-GP
 ```
 
 Ref.: https://stackoverflow.com/questions/42024255/bulk-join-json-with-jpg-from-google-takeout
+
+## Copy metadata to another image
+`exiftool -TagsFromFile srcimage.jpg "-all:all>all:all" targetimage.jpg`
+
+Ex.:
+
+```
+exiftool -TagsFromFile IMG-20230105-WA0009.jpg "-all:all>all:all" IMG-20230105-WA0009-edited.jpg
+```
