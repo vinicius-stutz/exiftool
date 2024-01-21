@@ -1,0 +1,2 @@
+# exiftool
+Comandos para exiftool
